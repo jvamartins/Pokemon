@@ -1,10 +1,10 @@
-import Pokedex from './Pokedex/Pokedex';
 import pokemonList from './Data/PokemonList';
+import Pokegame from './Pokegame/Pokegame'
 
 function App() {
   return (
     <div className="App">
-      <Pokedex
+      <Pokegame
         pokemonList={pokemonList}
       />
     </div>
